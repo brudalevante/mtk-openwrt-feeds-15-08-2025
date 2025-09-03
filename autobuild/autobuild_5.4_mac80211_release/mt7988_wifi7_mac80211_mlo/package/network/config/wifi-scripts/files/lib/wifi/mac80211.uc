@@ -12,7 +12,7 @@ if (!board.wlan)
 let idx = 0;
 let commit;
 
-let has_mlo = 1;
+let has_mlo = 0;
 let mld_id = 1;
 let random_mac_bytes = getenv("MT76_ENV_RANDOM_MAC_BYTES");
 
