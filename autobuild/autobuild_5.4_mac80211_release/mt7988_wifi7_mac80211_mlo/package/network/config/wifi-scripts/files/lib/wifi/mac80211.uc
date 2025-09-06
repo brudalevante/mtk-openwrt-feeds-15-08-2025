@@ -13,7 +13,7 @@ let idx = 0;
 let commit;
 
 let has_mlo = 0;
-let mld_id = 1;
+let mld_id = 0;
 let random_mac_bytes = getenv("MT76_ENV_RANDOM_MAC_BYTES");
 
 let config = uci.cursor().get_all("wireless") ?? {};
